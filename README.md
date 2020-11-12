@@ -11,3 +11,20 @@ I first started off with listing the qualities that I would want my portfolio we
 * Clear about its Purpose.
 
 Next, with these qualities in mind, I went ahead to start creating the wireframe in Adobe XD, taking into account 2 different screen sizes so that my website would also support both desktop and mobile users. Here is the link to a pdf of my [wireframes!](https://drive.google.com/file/d/1qAvcI0huEjRLnB29Tk3FDEIk5zcOyG8M/view?usp=sharing)
+
+## Features
+
+# Existing Features
+* 
+
+# Features left to implement
+* Drop Down menu for Mobile
+* Clickable Buttons that lead to other profiles
+* Potrait
+* A flexbox Contact me page
+
+## Technologies used
+* Adobe XD
+* Visual Studio Code
+
+
