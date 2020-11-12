@@ -14,10 +14,10 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 
 ## Features
 
-# Existing Features
+### Existing Features
 * 
 
-# Features left to implement
+### Features left to implement
 * Drop Down menu for Mobile
 * Clickable Buttons that lead to other profiles
 * Potrait
