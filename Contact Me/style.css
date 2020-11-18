@@ -1,0 +1,58 @@
+.nav{
+    overflow: hidden;
+    background-color: white;
+    border-bottom: solid 3px #707070;
+}
+
+.nav a{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    float: right;
+    color: #707070;
+    text-align: center;
+    padding: 30px;
+    padding-top: 16px;
+    padding-left: 36px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav a.active{
+    color: black
+}
+
+.main_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form_box{
+    display: flex;
+    flex-direction:column;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    
+}
+
+input[type=text], select, textarea, input[type=email]{
+    width: 35%;
+    padding: 12px;
+    margin: 5px;
+}
+
+
+
+input[type=submit], .contact{
+    margin: 5px;
+}
+
+.main_page h1.karla{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+}
+
+.main_page h3.bitter{
+    font-family: 'Bitter', serif;
+    font-style: normal;
+}
