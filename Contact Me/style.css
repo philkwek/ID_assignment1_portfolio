@@ -95,6 +95,13 @@ input[type=submit], .contact{
     font-style: normal;
 }
 
+footer{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    color: #cfcfcf;
+    text-align: center;
+}
+
 @media (max-width: 900px) {
     .nav { display:none;}
 

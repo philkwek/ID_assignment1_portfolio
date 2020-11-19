@@ -1,0 +1,170 @@
+.nav{
+    overflow: hidden;
+    background-color: white;
+    border-bottom: solid 3px #707070;
+}
+
+.dropdown{
+    display:none;
+}
+
+.nav a{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    float: right;
+    color: #707070;
+    text-align: center;
+    padding: 30px;
+    padding-top: 16px;
+    padding-left: 36px;
+    text-decoration: none;
+    font-size: 23px;
+}
+
+.nav a.active{
+    color: #3B7193;
+}
+
+footer{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    color: #cfcfcf;
+    text-align: center;
+}
+
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.intro{
+    width: 70%;
+    padding: 70px;
+    margin: 10px;
+}
+
+.mainPage h1{
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    color: #707070;
+}
+
+.mainPage h3{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+}
+
+.project_box{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    
+}
+
+
+.box{
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+figcaption{
+    text-align: center;
+    padding:20px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #707070;
+
+}
+
+
+@media (max-width:2000px) {
+
+    img{
+        width: 500px;
+    } 
+    
+} 
+
+@media (max-width:1700px) {
+
+    .project_box{
+        flex-wrap:wrap;
+    }
+
+    img{
+        width: 400px;
+    }
+}
+
+
+
+@media (max-width: 900px) {
+    .nav { display:none;}
+
+    .dropdown { 
+
+        display: block; 
+        border-bottom: 3px solid #707070;
+        float: right;
+        padding: 30px;
+        padding-top: 16px;
+        padding-left: 100%;
+        overflow: hidden;
+          
+    }
+
+    .dropbtn{
+        padding:20px;
+        color: #f9f9f9;
+        
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1;
+        z-index: 1;
+        width: 100%;
+        left:0;
+        
+
+    }
+    ul li {
+        display: block;
+        position: relative;
+        list-style: none;
+        text-align: left;
+        width: 500%;
+        padding-bottom:8px;
+        padding-right:10%;
+        margin:10px
+        
+    }
+
+    ul li a {
+        font-family: 'Bitter', serif;
+        font-style:italic;
+        color: #707070;
+        text-decoration:none;
+        font-size: 18px;
+        margin: 5px;
+        
+    }
+
+    ul li .active {
+        color: #3B7193;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
+}
