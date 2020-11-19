@@ -18,9 +18,9 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 * 
 
 ### Features left to implement
-- [x] Drop Down menu for Mobile
-- [ ] Potrait Photo
-- [x] A flexbox Contact me page
+* ~~Drop Down menu for Mobile~~
+* Potrait Photo
+* ~~A flexbox Contact me page~~
 
 ## Technologies used
 * Adobe XD
