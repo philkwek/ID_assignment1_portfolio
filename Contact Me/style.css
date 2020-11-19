@@ -22,7 +22,7 @@
 }
 
 .nav a.active{
-    color: black
+    color: #3B7193;
 }
 
 .main_page{
@@ -49,6 +49,8 @@
 
 input[type=text], select, textarea, input[type=email]{
 
+    font-family: 'Bitter', serif;
+    font-style: italic;
     padding-right: 300px;
     padding-left: 20px;
     padding-top: 20px;
@@ -62,11 +64,14 @@ textarea{
     padding-left: 20px;
     padding-bottom: 80px;
     font-family: 'Bitter', serif;
+    font-style: italic;
     
 }
 
 input[type=submit]{
     background: white;
+    font-family: 'Bitter', serif;
+    font-style: italic;
     color: #707070;
     border-style: 1;
     border-color: #707070;
@@ -145,7 +150,7 @@ input[type=submit], .contact{
     }
 
     ul li .active {
-        color: black;
+        color: #3B7193;
     }
 
     .dropdown:hover .dropdown-content {
