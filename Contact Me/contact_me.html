@@ -5,9 +5,22 @@
         <link rel="stylesheet" href="style.css" type="text/css">
 
         <div class="nav">
+            
             <a class="active" href="Contact me!">Contact me!</a>
             <a href="#about">About</a>
             <a href="#projects">Projects</a>
+            
+        </div>
+
+        <div class="dropdown">
+            <button class="dropbtn"></button>
+            <div class="dropdown-content">
+                <ul>
+                <li><a class="active" href="Contact me!">Contact</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                </ul>
+            </div>
         </div>
 
     </head>
@@ -38,10 +51,6 @@
                     <input type="email" required name="email" placeholder="E-Mail">
                 </div>
 
-                <div class="half_box">
-                    <input type="text" required name="organisation" placeholder="Organisation (if applicable)">
-                </div>
-
                 <div class="big_box">   
                     
                     <textarea id="message" rows="4" placeholder="Message"></textarea >
@@ -53,8 +62,6 @@
             </div>
         </form>
     </div>
-
-
 
 
 

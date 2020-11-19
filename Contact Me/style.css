@@ -4,6 +4,10 @@
     border-bottom: solid 3px #707070;
 }
 
+.dropdown{
+    display:none;
+}
+
 .nav a{
     font-family: 'Bitter', serif;
     font-style: italic;
@@ -25,6 +29,9 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 40px;
 }
 
 .form_box{
@@ -32,19 +39,43 @@
     flex-direction:column;
     font-family: 'Bitter', serif;
     font-style: italic;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    
+ 
     
 }
 
 input[type=text], select, textarea, input[type=email]{
-    width: 35%;
-    padding: 12px;
-    margin: 5px;
+
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
 }
 
+textarea{
+    
+    padding-right: 266px;
+    padding-left: 27px;
+    padding-bottom: 80px;
+}
 
+input[type=submit]{
+    background: white;
+    color: #707070;
+    border-style: 1;
+    border-color: #707070;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+
+}
 
 input[type=submit], .contact{
-    margin: 5px;
+    margin-bottom: 5px;
 }
 
 .main_page h1.karla{
@@ -56,3 +87,64 @@ input[type=submit], .contact{
     font-family: 'Bitter', serif;
     font-style: normal;
 }
+
+@media (max-width: 900px) {
+    .nav { display:none;}
+
+    .dropdown { 
+        display: inline-block; 
+        border-bottom: 3px solid #707070;
+        float: right;
+        padding:30px;
+        padding-top: 16px;
+        padding-left: 100%;
+        overflow: hidden;
+          
+    }
+
+    .dropbtn{
+        padding:20px;
+        color: #707070;
+        
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        border: 1;
+        z-index: 1;
+        width: 100%;
+        left: 0;
+        
+
+    }
+    ul li {
+        display: block;
+        position: relative;
+        list-style: none;
+        text-align: left;
+        width: 500%;
+        padding-bottom:8px;
+        padding-right:10%;
+        margin:10px
+        
+    }
+
+    ul li a {
+        font-family: 'Bitter', serif;
+        font-style:italic;
+        color: #707070;
+        text-decoration:none;
+        font-size: 18px;
+        margin: 5px;
+        
+    }
+
+    ul li .active {
+        color: black;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+      }
