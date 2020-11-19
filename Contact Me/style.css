@@ -58,9 +58,11 @@ input[type=text], select, textarea, input[type=email]{
 
 textarea{
     
-    padding-right: 266px;
-    padding-left: 27px;
+    padding-right: 293px;
+    padding-left: 20px;
     padding-bottom: 80px;
+    font-family: 'Bitter', serif;
+    
 }
 
 input[type=submit]{
