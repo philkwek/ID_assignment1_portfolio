@@ -49,12 +49,15 @@ footer{
 .mainPage h1{
     font-family: 'Bitter', serif;
     font-style: normal;
-    color: #707070;
+    color: #383737;
+    font-size: 3rem;
 }
 
 .mainPage h3{
     font-family: 'Karla', sans-serif;
     font-style: normal;
+    color: #383737;
+    font-size: 2rem;
 }
 
 .project_box{
@@ -167,4 +170,18 @@ figcaption{
     .dropdown:hover .dropdown-content {
         display: block;
       }
+
+    .mainPage h1{
+        font-family: 'Bitter', serif;
+        font-style: normal;
+        color: #383737;
+        font-size: 2rem;
+    }
+    
+    .mainPage h3{
+        font-family: 'Karla', sans-serif;
+        font-style: normal;
+        color: #383737;
+        font-size: 1.3rem;
+    }
 }
