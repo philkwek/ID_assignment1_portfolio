@@ -32,5 +32,5 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 
 - Redone Nav bar HTML and CSS code to use a Flexbox
 - Added Logo
-- Adjusted mobile Nav bar to accomadate new Logo
+- Adjusted mobile Nav bar to accommodate new Logo
 
