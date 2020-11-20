@@ -22,4 +22,15 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 * Adobe XD
 * Visual Studio Code
 
+## Development Log
+
+### Version 2.0
+
+- Added Project page 
+
+### Version 2.1
+
+- Redone Nav bar HTML and CSS code to use a Flexbox
+- Added Logo
+- Adjusted mobile Nav bar to accomadate new Logo
 
