@@ -207,4 +207,41 @@ footer{
         color: #383737;
         font-size: 1.3rem;
     }
+    
+    
+    input[type=text], select, textarea, input[type=email]{
+    
+        font-family: 'Bitter', serif;
+        font-style: italic;
+        padding-right: 200px;
+        padding-left: 20px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+    
+    textarea{
+        
+        padding-right: 193px;
+        padding-left: 20px;
+        padding-bottom: 80px;
+        font-family: 'Bitter', serif;
+        font-style: italic;
+        
+    }
+    
+    input[type=submit]{
+        background: white;
+        font-family: 'Bitter', serif;
+        font-style: italic;
+        color: #707070;
+        border-style: 1;
+        border-color: #707070;
+        height: 40px;
+        width: 120px;
+        margin: 10px;
+        font-size: 0.8rem;
+    
+    }
+    
 }
