@@ -42,6 +42,68 @@
     color: #3B7193;
 }
 
+footer{
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    color: #cfcfcf;
+    text-align: center;
+}
+
+.mainPage{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+.intro{
+    width: 70%;
+    padding: 70px;
+    margin: 10px;
+}
+
+.mainPage h1{
+    font-family: 'Bitter', serif;
+    font-style: normal;
+    color: #383737;
+    font-size: 3rem;
+}
+
+.mainPage h3{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    color: #383737;
+    font-size: 2rem;
+}
+
+.project_box{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    
+}
+
+
+.box{
+    margin: 30px;
+    margin-bottom: 30px;
+}
+
+
+
+figcaption{
+    text-align: center;
+    padding:20px;
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    color: #707070;
+
+}
+
 .landing{
     display: flex;
     flex-wrap: wrap;
@@ -68,15 +130,6 @@
     justify-content: center;
 }
 
-
-
-footer{
-    font-family: 'Bitter', serif;
-    font-style: italic;
-    color: #cfcfcf;
-    text-align: center;
-}
-
 .textbox h1{
     font-family: 'Bitter', serif;
     color: #383737;
@@ -98,6 +151,96 @@ footer{
 .image_link img{
     width: 2.5rem;
     margin: 1rem;
+}
+
+.contactme_page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 70%;
+    padding: 40px;
+}
+
+.form_box{
+    display: flex;
+    flex-direction:column;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    align-items: center;
+    justify-content: center;
+    padding: 80px;
+    
+ 
+    
+}
+
+input[type=text], select, textarea, input[type=email]{
+
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    padding-right: 300px;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+textarea{
+    
+    padding-right: 293px;
+    padding-left: 20px;
+    padding-bottom: 80px;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    
+}
+
+input[type=submit]{
+    background: white;
+    font-family: 'Bitter', serif;
+    font-style: italic;
+    color: #707070;
+    border-style: 1;
+    border-color: #707070;
+    height: 40px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+input[type=submit], .contact{
+    margin-bottom: 5px;
+}
+
+.contactme_page h1.karla{
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+}
+
+.contactme_page h3.bitter{
+    font-family: 'Bitter', serif;
+    font-style: normal;
+}
+
+
+@media (max-width:2000px) {
+
+    .box img{
+        width: 500px;
+    } 
+    
+} 
+
+@media (max-width:1700px) {
+
+    .project_box{
+        flex-wrap:wrap;
+    }
+
+    .box img{
+        width: 400px;
+    }
 }
 
 
@@ -175,5 +318,19 @@ footer{
 
     .dropdown:hover .dropdown-content {
         display: block;
+      }
+
+    .mainPage h1{
+        font-family: 'Bitter', serif;
+        font-style: normal;
+        color: #383737;
+        font-size: 2rem;
+    }
+    
+    .mainPage h3{
+        font-family: 'Karla', sans-serif;
+        font-style: normal;
+        color: #383737;
+        font-size: 1.3rem;
     }
 }
