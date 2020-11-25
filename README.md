@@ -24,6 +24,10 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 
 ## Development Log
 
+### 25/11/2020
+
+- Added clickable link on project page to read more about a Project
+
 ### 24/11/2020
 
 - Combined the 3 seperate CSS files into 1
