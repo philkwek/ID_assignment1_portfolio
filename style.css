@@ -79,6 +79,7 @@ footer{
 
 .project_box{
 
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -94,7 +95,8 @@ footer{
 
 
 
-figcaption{
+.project_box figcaption{
+    text-decoration: none;
     text-align: center;
     padding:20px;
     font-family: 'Karla', sans-serif;
@@ -223,6 +225,63 @@ input[type=submit], .contact{
     font-style: normal;
 }
 
+.read_more_page{
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+    width: 90%;
+}
+
+.read_more_text{
+    width: 40%;
+    min-width: 400px;
+    margin: 2rem;
+    margin-left: 4rem;
+
+}
+
+.read_more_text h1{
+    font-family: 'Bitter', serif;
+    font-size: 3rem;
+}
+
+.read_more_text h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: normal;
+}
+
+.read_more_text p{
+    font-family:'Karla', sans-serif;
+    font-size: 1.1rem;
+    line-height: 2;
+    color: #707070;
+
+}
+
+.image_gallery{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-left: 3rem;
+}
+
+.image_gallery img {
+    width: 500px;
+    margin: 2rem;
+}
+
+.image_gallery figcaption{
+    font-family:'Karla', sans-serif;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
 
 @media (max-width:2000px) {
 
@@ -230,6 +289,9 @@ input[type=submit], .contact{
         width: 500px;
     } 
     
+    .box img{
+        width: 600px;
+    }
 } 
 
 @media (max-width:1700px) {
@@ -240,6 +302,23 @@ input[type=submit], .contact{
 
     .box img{
         width: 400px;
+    }
+
+    
+    .image_gallery img{
+        width: 500px;
+        margin: 2rem;
+    }
+}
+
+@media (max-width: 1500px){
+    .image_gallery{
+        width:50%;
+    }
+
+    .read_more_text{
+        width: 60%;
+        text-align: left;
     }
 }
 
@@ -332,5 +411,10 @@ input[type=submit], .contact{
         font-style: normal;
         color: #383737;
         font-size: 1.3rem;
+    }
+
+    .image_gallery img{
+        width: 300px;
+        margin: 2rem;
     }
 }
