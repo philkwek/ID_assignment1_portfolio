@@ -24,6 +24,11 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 
 ## Development Log
 
+### 24/11/2020
+
+- Combined the 3 seperate CSS files into 1
+- Updated file directory for github
+
 ### 21/11/2020
 
 - Added About Page
