@@ -52,3 +52,13 @@ Next, with these qualities in mind, I went ahead to start creating the wireframe
 ### 18/11/2020
 
 - Added Contact me page
+
+## Credits
+
+### Media
+
+- All media used in the creation of this website was created by me with inspiration from existing designs.
+
+### Acknowledgements
+
+- I received lots of help from [w3schools](https://www.w3schools.com/) more specifically, it helped me to learn how to code the dropdown menu and the responsive boxes.
