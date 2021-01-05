@@ -2,7 +2,7 @@
 
 #### Hi! My name's Phil and this github repo will be where I'll be storing my HTML and CSS code for my Portofolio website!
 
-#### Website is now up and running [here!](https://philkwek.github.io/ID_portfolio_assignment/) (Note: Website hosted on github is broken, please download files and view using Live Server on an IDE)
+#### Website is now up and running [here!](https://philkwek.github.io/ID_portfolio_assignment/) (Note: Website hosted on github is broken, please download files and view using Live Server on an IDE to view full site)
 
 ## Design Process 
 
