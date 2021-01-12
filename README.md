@@ -2,6 +2,8 @@
 
 #### Hi! My name's Phil and this github repo will be where I'll be storing my HTML and CSS code for my Portofolio website!
 
+#### Website is now up and running [here!](https://philkwek.github.io/ID_portfolio_assignment/) (Note: Website hosted on github is broken, please download files and view using Live Server on an IDE to view full site)
+
 ## Design Process 
 
 I first started off with listing the qualities that I would want my portfolio website to have and down below are some of it.
